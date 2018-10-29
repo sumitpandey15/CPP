@@ -16,6 +16,27 @@
     <Filter Include="Source Files\CConcepts">
       <UniqueIdentifier>{3ca8c3e2-770b-49c1-a509-43cc77325cd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ExceptionHandling">
+      <UniqueIdentifier>{bac7387a-3123-4837-bfcd-fa22019b5e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Template">
+      <UniqueIdentifier>{7b8312a3-54d4-4082-a8c1-8ee50e3dce13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{b66c0a30-7531-4aae-8270-d4d30d04183e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functor">
+      <UniqueIdentifier>{360208b9-ac2b-49f9-9652-11416bc19d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STL">
+      <UniqueIdentifier>{cb6b5208-3d6c-462c-9a6b-5c1f7c026f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OperatorOverloading">
+      <UniqueIdentifier>{749e85b6-ecba-4e8e-aa46-623f9600fff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TinyInt">
+      <UniqueIdentifier>{a9d29617-d2ca-44c8-90b9-e169da1c8023}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp">
@@ -24,10 +45,52 @@
     <ClCompile Include="src\CConcepts.cpp">
       <Filter>Source Files\CConcepts</Filter>
     </ClCompile>
+    <ClCompile Include="src\ExceptionHandling.cpp">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Functor.cpp">
+      <Filter>Source Files\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Template.cpp">
+      <Filter>Source Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\STL.cpp">
+      <Filter>Source Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OperatorOverloading.cpp">
+      <Filter>Source Files\OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TinyInt.cpp">
+      <Filter>Source Files\TinyInt</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\CConcepts.h">
       <Filter>Source Files\CConcepts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExceptionHandling.h">
+      <Filter>Source Files\ExceptionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data.h">
+      <Filter>Source Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Functor.h">
+      <Filter>Source Files\Functor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Template.h">
+      <Filter>Source Files\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="src\STL.h">
+      <Filter>Source Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OperatorOverloading.h">
+      <Filter>Source Files\OperatorOverloading</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TinyInt.h">
+      <Filter>Source Files\TinyInt</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -147,10 +147,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\CConcepts.cpp" />
+    <ClCompile Include="src\Data.cpp" />
+    <ClCompile Include="src\ExceptionHandling.cpp" />
+    <ClCompile Include="src\Functor.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\OperatorOverloading.cpp" />
+    <ClCompile Include="src\STL.cpp" />
+    <ClCompile Include="src\Template.cpp" />
+    <ClCompile Include="src\TinyInt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\CConcepts.h" />
+    <ClInclude Include="src\Data.h" />
+    <ClInclude Include="src\ExceptionHandling.h" />
+    <ClInclude Include="src\Functor.h" />
+    <ClInclude Include="src\OperatorOverloading.h" />
+    <ClInclude Include="src\STL.h" />
+    <ClInclude Include="src\Template.h" />
+    <ClInclude Include="src\TinyInt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
